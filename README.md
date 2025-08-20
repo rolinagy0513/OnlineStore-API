@@ -15,7 +15,7 @@
 - To create a substantial project that strengthens my resume and serves as a practical way to deepen my knowledge in **Java Spring Boot backend development**.  
 - To gain hands-on experience working on a larger project, understanding **key backend concepts** such as **asynchronous processing** and **caching**.  
 
-##Installation
+## Installation
 
 - Clone the repository : ```bash git clone https://github.com/rolinagy0513/online-store-api.git
 - Rename the application.yml.example to application.yml and fill in the required values.
