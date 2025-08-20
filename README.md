@@ -21,7 +21,7 @@
 
 - Clone the repository :
   ```bash
-  git clone https://github.com/rolinagy0513/online-store-api.git
+  git clone https://github.com/rolinagy0513/OnlineStore-API.git
 - Rename the application.yml.example to application.yml and fill in the required values.
 - Build the project:
   ```bash
