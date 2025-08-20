@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    url: YOUR_DATABASE_URL
+    username: YOUR_DATABASE_USERNAME
+    password: YOUR_DATABASE_PASSWORD
+    driver-class-name: YOUR_DRIVER_NAME
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    jwt:
+      secret-key: YOUR_SECRET_KEY
+      expiration: ACCESS_TOKEN_EXPIRATION_IN_SECONDS
+      refresh-token:
+        expiration: REFRESH_TOKEN_EXPIRATION_IN_SECONDS
+
+stripe:
+    api-key: YOUR_STRIPE-KEY
+    webhook-key: YOUR_WEBHOOK-KEY
+domain: YOUR_DOMAIN
+
+
+email:
+  spring:
+    mail:
+      host=smtp.gmail.com
+      port=587
+      username=YOUR_USERNAME
+      password=YOUR_PASSWORD
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable:true
+app:
+  app-name: YOUR_APP_NAME
