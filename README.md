@@ -31,7 +31,7 @@
 - IDE or code editor (IntelliJ, Eclipse, etc.)  
 - [Stripe CLI](https://stripe.com/docs/stripe-cli) for payment webhook testing
 
-##Features
+## Features
 
 - HttpOnly cookie-based authentication system with multiple roles: USER, ADMIN, MANAGER.
 - CRUD operations for categories and products: getAll and getOne endpoints are optimized with async and caching, add/edit/delete operations are restricted to admins only.
@@ -43,7 +43,7 @@
 - Unit tests for all services.
 - Comprehensive documentation for most files and methods.
 
-##Notes
+## Notes
 
 - The authentication system is based on open-source solutions with some custom modifications.
 - The project is still under development. Future enhancements include:
