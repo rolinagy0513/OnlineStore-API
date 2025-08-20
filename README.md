@@ -17,10 +17,16 @@
 
 ## Installation
 
-- Clone the repository : ```bash git clone https://github.com/rolinagy0513/online-store-api.git
+- Clone the repository :
+  ```bash
+  git clone https://github.com/rolinagy0513/online-store-api.git
 - Rename the application.yml.example to application.yml and fill in the required values.
-- Build the project: mvn clean install
-- Run the project: mvn spring-boot:run
+- Build the project:
+  ```bash
+  mvn clean install
+- Run the project:
+  ```bash
+  mvn spring-boot:run
 - The API will be available at: http://localhost:8080/ by default.
 
 ## Requirements
@@ -39,7 +45,9 @@
 - Stripe integration for payments: Creates a unique payment session for each order in sandbox mode. Handles payment webhooks to update order history and stock:
     - On success: products are removed from stock, order added to user history.
     - On failure: stock is restored.
-- Stripe CLI integration allows development testing: ```bash stripe listen --forward-to http://localhost:8080/api/webhook/stripe
+- Stripe CLI integration allows development testing:
+     ```bash
+     stripe listen --forward-to http://localhost:8080/api/webhook/stripe
 - Unit tests for all services.
 - Comprehensive documentation for most files and methods.
 
