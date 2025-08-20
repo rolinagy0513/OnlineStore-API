@@ -7,6 +7,7 @@
 - [Features](#features)
 - [Notes](#notes)
 
+
 ## Description
 
 **Online Store API** is a **Java Spring Boot backend** for an e-commerce platform, designed to manage **categories, products, stock, orders, order history, and payments** with a **HttpOnly cookie-based authentication system**.  
@@ -14,6 +15,7 @@
 **Project Goals and Motivation:**  
 - To create a substantial project that strengthens my resume and serves as a practical way to deepen my knowledge in **Java Spring Boot backend development**.  
 - To gain hands-on experience working on a larger project, understanding **key backend concepts** such as **asynchronous processing** and **caching**.  
+
 
 ## Installation
 
@@ -29,6 +31,7 @@
   mvn spring-boot:run
 - The API will be available at: http://localhost:8080/ by default.
 
+
 ## Requirements
 
 - Java 21 or higher  
@@ -36,6 +39,7 @@
 - Maven  
 - IDE or code editor (IntelliJ, Eclipse, etc.)  
 - [Stripe CLI](https://stripe.com/docs/stripe-cli) for payment webhook testing
+
 
 ## Features
 
@@ -50,6 +54,7 @@
      stripe listen --forward-to http://localhost:8080/api/webhook/stripe
 - Unit tests for all services.
 - Comprehensive documentation for most files and methods.
+
 
 ## Notes
 
